@@ -1,0 +1,188 @@
+[
+  {
+    "name": "CLICK",
+    "commissionFee": 0.5,
+    "id": "90fd5158-c026-44d9-940c-89eae6d8f285",
+    "createdAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 6
+      },
+      "time": {
+        "hour": 18,
+        "minute": 26,
+        "second": 45,
+        "nano": 739000000
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 6
+      },
+      "time": {
+        "hour": 18,
+        "minute": 26,
+        "second": 45,
+        "nano": 739000000
+      }
+    }
+  },
+  {
+    "name": "PAYME",
+    "commissionFee": 1.0,
+    "id": "10f0aeef-9e9e-4e16-bcdf-f04e54e48ce4",
+    "createdAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 6
+      },
+      "time": {
+        "hour": 18,
+        "minute": 26,
+        "second": 45,
+        "nano": 739000000
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 6
+      },
+      "time": {
+        "hour": 18,
+        "minute": 26,
+        "second": 45,
+        "nano": 739000000
+      }
+    }
+  },
+  {
+    "name": "OSON",
+    "commissionFee": 0.3,
+    "id": "2e703b38-e766-4a05-9561-544daa37c560",
+    "createdAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 6
+      },
+      "time": {
+        "hour": 18,
+        "minute": 27,
+        "second": 21,
+        "nano": 159000000
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 6
+      },
+      "time": {
+        "hour": 18,
+        "minute": 27,
+        "second": 21,
+        "nano": 159000000
+      }
+    }
+  },
+  {
+    "name": "ZOODMARD",
+    "commissionFee": 0.8,
+    "id": "023f42f9-b641-4bd4-97ab-913c4ef09949",
+    "createdAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 6
+      },
+      "time": {
+        "hour": 18,
+        "minute": 28,
+        "second": 2,
+        "nano": 958000000
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 6
+      },
+      "time": {
+        "hour": 18,
+        "minute": 28,
+        "second": 2,
+        "nano": 958000000
+      }
+    }
+  },
+  {
+    "name": "APELSIN",
+    "commissionFee": 0.3,
+    "id": "c23f01d3-4fc9-4408-bc84-7056d6c7c71a",
+    "createdAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 7
+      },
+      "time": {
+        "hour": 0,
+        "minute": 45,
+        "second": 17,
+        "nano": 177000000
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 7
+      },
+      "time": {
+        "hour": 0,
+        "minute": 45,
+        "second": 17,
+        "nano": 177000000
+      }
+    }
+  },
+  {
+    "name": "HUMO",
+    "commissionFee": 0.3,
+    "id": "0d70a6d0-6322-43ae-afdc-88a5bcfab4f9",
+    "createdAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 7
+      },
+      "time": {
+        "hour": 8,
+        "minute": 31,
+        "second": 27,
+        "nano": 732000000
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 7
+      },
+      "time": {
+        "hour": 8,
+        "minute": 31,
+        "second": 27,
+        "nano": 732000000
+      }
+    }
+  }
+]

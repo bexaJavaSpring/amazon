@@ -1,0 +1,84 @@
+[
+  {
+    "isActive": true,
+    "myCart": [],
+    "wishList": [],
+    "fullName": "Izzatullayev Behruz B-9 null",
+    "balance": 0.0,
+    "role": "CUSTOMER",
+    "lastRound": 1,
+    "currentRound": 2,
+    "userId": 958536406,
+    "verifyCode": "9457",
+    "isVerified": true,
+    "cancelPressed": false,
+    "id": "fc9f30d0-a3dc-4769-891a-7d0e73270bc7",
+    "createdAt": {
+      "date": {
+        "year": 2022,
+        "month": 2,
+        "day": 5
+      },
+      "time": {
+        "hour": 13,
+        "minute": 15,
+        "second": 53,
+        "nano": 171000000
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2022,
+        "month": 2,
+        "day": 5
+      },
+      "time": {
+        "hour": 13,
+        "minute": 15,
+        "second": 53,
+        "nano": 171000000
+      }
+    }
+  },
+  {
+    "isActive": true,
+    "myCart": [],
+    "wishList": [],
+    "fullName": "Mirjon null",
+    "balance": 0.0,
+    "role": "CUSTOMER",
+    "lastRound": 1,
+    "currentRound": 2,
+    "userId": 1433768599,
+    "verifyCode": "7976",
+    "isVerified": true,
+    "cancelPressed": false,
+    "id": "ba41d9e4-ff95-480d-a671-fb9a933182a6",
+    "createdAt": {
+      "date": {
+        "year": 2022,
+        "month": 2,
+        "day": 12
+      },
+      "time": {
+        "hour": 16,
+        "minute": 29,
+        "second": 28,
+        "nano": 391000000
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2022,
+        "month": 2,
+        "day": 12
+      },
+      "time": {
+        "hour": 16,
+        "minute": 29,
+        "second": 28,
+        "nano": 391000000
+      }
+    }
+  }
+]

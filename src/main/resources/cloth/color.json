@@ -1,0 +1,92 @@
+[
+  {
+    "name": "BLACK",
+    "id": "4d2a4de5-077e-47ed-a4bd-460334485297",
+    "createdAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 6
+      },
+      "time": {
+        "hour": 15,
+        "minute": 9,
+        "second": 44,
+        "nano": 96000000
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 6
+      },
+      "time": {
+        "hour": 15,
+        "minute": 9,
+        "second": 44,
+        "nano": 96000000
+      }
+    }
+  },
+  {
+    "name": "WHITE",
+    "id": "9046d30d-7fb0-44b0-8219-f0d1980266b3",
+    "createdAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 6
+      },
+      "time": {
+        "hour": 15,
+        "minute": 9,
+        "second": 44,
+        "nano": 96000000
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 6
+      },
+      "time": {
+        "hour": 15,
+        "minute": 9,
+        "second": 44,
+        "nano": 96000000
+      }
+    }
+  },
+  {
+    "name": "BLUE",
+    "id": "66860afb-3e73-4736-b350-395b9512858b",
+    "createdAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 10
+      },
+      "time": {
+        "hour": 16,
+        "minute": 44,
+        "second": 41,
+        "nano": 49000000
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 10
+      },
+      "time": {
+        "hour": 16,
+        "minute": 44,
+        "second": 41,
+        "nano": 49000000
+      }
+    }
+  }
+]
