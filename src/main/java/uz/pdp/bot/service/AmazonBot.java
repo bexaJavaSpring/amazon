@@ -18,6 +18,7 @@ import org.telegram.telegrambots.meta.api.objects.payments.PreCheckoutQuery;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import uz.pdp.bot.config.BotConfig;
+import uz.pdp.bot.config.BotConstant;
 import uz.pdp.bot.database.JsonConfig;
 import uz.pdp.bot.helper.ClothMethod;
 import uz.pdp.bot.helper.DocGenerator;
@@ -57,11 +58,7 @@ public class AmazonBot extends TelegramLongPollingBot implements BotConfig {
 
     @Override
     public void onUpdateReceived(Update update) {
-
-
         if (update.hasMessage()) {
-
-
             User currentUser = helperMethod.findUser(update);
             Long chatId = update.getMessage().getChatId();
 
@@ -79,22 +76,16 @@ public class AmazonBot extends TelegramLongPollingBot implements BotConfig {
 
                 hasMessageMethod(currentUser, chatId, message, sendMessage);
             }
-
-
             sendMessage.setChatId(chatId.toString());
 
             try {
-
                 execute(sendMessage);
-
             } catch (TelegramApiException e) {
                 e.printStackTrace();
             }
         } else if (update.hasCallbackQuery()) {
             callBackMsg(update);
         }
-
-
     }
 
     private void hasMessageMethod(User currentUser, Long chatId, Message message, SendMessage sendMessage) {
@@ -158,7 +149,7 @@ public class AmazonBot extends TelegramLongPollingBot implements BotConfig {
                     labeledPrice.setLabel("UZS");
                     labeledPrice.setAmount(1081499);
                     labeledPrices.add(labeledPrice);
-                    sendInvoice.setProviderToken(PAYMENT_PROVIDER);
+                    sendInvoice.setProviderToken(BotConstant.PAYMENT_PROVIDER.value);
                     sendInvoice.setCurrency("UZS");
                     sendInvoice.setMaxTipAmount(500000);
                     sendInvoice.setPrices(labeledPrices);

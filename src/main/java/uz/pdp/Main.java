@@ -1,16 +1,8 @@
 package uz.pdp;
 
-import uz.pdp.model.products.Cloth;
 import uz.pdp.service.Amazon;
 
 import java.io.IOException;
-import java.util.Map;
-import java.util.Optional;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
-import static uz.pdp.DataBase.clothList;
-import static uz.pdp.library.Util.*;
 
 
 public class Main {
