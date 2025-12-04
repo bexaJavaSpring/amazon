@@ -80,17 +80,19 @@ public class DataBase {
     }
 
     private boolean userData() {
-        File user = new File("src/main/resources/user/user.json");
-        if (user.length() == 0) {
+        File userFile = new File("src/main/resources/user/user.json");
+        if (userFile.length() == 0) {
             authService.writeJson();
             return true;
         } else {
-            try (Reader reader = new FileReader(user)) {
+            try (Reader reader = new FileReader(userFile)) {
                 Gson gson = new Gson();
-                List<User> userType = gson.fromJson(reader, new TypeToken<List<Customer>>() {
+                List<User> usersFromFile  = gson.fromJson(reader, new TypeToken<List<Customer>>() {
                 }.getType());
-                userList.removeAll(userList);
-                userList.addAll(userType);
+                if (usersFromFile != null) {
+                    userList.clear();
+                    userList.addAll(usersFromFile);
+                }
                 return true;
             } catch (IOException e) {
                 return true;

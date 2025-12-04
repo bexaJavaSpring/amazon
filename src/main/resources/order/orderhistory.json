@@ -26629,5 +26629,615 @@
         "nano": 533000000
       }
     }
+  },
+  {
+    "customer": {
+      "isActive": true,
+      "myCart": [
+        {
+          "cloth": {
+            "name": "Cap",
+            "color": {
+              "name": "BLACK",
+              "id": "4d2a4de5-077e-47ed-a4bd-460334485297",
+              "createdAt": {
+                "date": {
+                  "year": 2021,
+                  "month": 12,
+                  "day": 6
+                },
+                "time": {
+                  "hour": 15,
+                  "minute": 9,
+                  "second": 44,
+                  "nano": 96000000
+                }
+              },
+              "updatedAt": {
+                "date": {
+                  "year": 2021,
+                  "month": 12,
+                  "day": 6
+                },
+                "time": {
+                  "hour": 15,
+                  "minute": 9,
+                  "second": 44,
+                  "nano": 96000000
+                }
+              }
+            },
+            "size": "S",
+            "price": 12000.0,
+            "discount": 10.0,
+            "id": "5f8f4a89-7ce6-4338-86c9-350cfc0bb15a",
+            "createdAt": {
+              "date": {
+                "year": 2021,
+                "month": 12,
+                "day": 9
+              },
+              "time": {
+                "hour": 15,
+                "minute": 27,
+                "second": 43,
+                "nano": 767000000
+              }
+            },
+            "updatedAt": {
+              "date": {
+                "year": 2021,
+                "month": 12,
+                "day": 9
+              },
+              "time": {
+                "hour": 15,
+                "minute": 27,
+                "second": 43,
+                "nano": 768000000
+              }
+            }
+          },
+          "quantity": 4,
+          "id": "c57ecace-e277-4015-8d0b-ca075916343e",
+          "createdAt": {
+            "date": {
+              "year": 2025,
+              "month": 12,
+              "day": 4
+            },
+            "time": {
+              "hour": 15,
+              "minute": 32,
+              "second": 20,
+              "nano": 771493200
+            }
+          },
+          "updatedAt": {
+            "date": {
+              "year": 2025,
+              "month": 12,
+              "day": 4
+            },
+            "time": {
+              "hour": 15,
+              "minute": 32,
+              "second": 20,
+              "nano": 771493200
+            }
+          }
+        }
+      ],
+      "wishList": [],
+      "fullName": "Bobur Toshniyozov",
+      "balance": 0.0,
+      "role": "CUSTOMER",
+      "lastRound": 2,
+      "currentRound": 4,
+      "userId": 1365675028,
+      "verifyCode": "1308",
+      "isVerified": true,
+      "cancelPressed": false,
+      "id": "a0d874d5-48b1-45e0-ae63-3b754bb63aff",
+      "createdAt": {
+        "date": {
+          "year": 2025,
+          "month": 12,
+          "day": 4
+        },
+        "time": {
+          "hour": 15,
+          "minute": 31,
+          "second": 33,
+          "nano": 349469500
+        }
+      },
+      "updatedAt": {
+        "date": {
+          "year": 2025,
+          "month": 12,
+          "day": 4
+        },
+        "time": {
+          "hour": 15,
+          "minute": 31,
+          "second": 33,
+          "nano": 349469500
+        }
+      }
+    },
+    "items": [
+      {
+        "cloth": {
+          "name": "Cap",
+          "color": {
+            "name": "BLACK",
+            "id": "4d2a4de5-077e-47ed-a4bd-460334485297",
+            "createdAt": {
+              "date": {
+                "year": 2021,
+                "month": 12,
+                "day": 6
+              },
+              "time": {
+                "hour": 15,
+                "minute": 9,
+                "second": 44,
+                "nano": 96000000
+              }
+            },
+            "updatedAt": {
+              "date": {
+                "year": 2021,
+                "month": 12,
+                "day": 6
+              },
+              "time": {
+                "hour": 15,
+                "minute": 9,
+                "second": 44,
+                "nano": 96000000
+              }
+            }
+          },
+          "size": "S",
+          "price": 12000.0,
+          "discount": 10.0,
+          "id": "5f8f4a89-7ce6-4338-86c9-350cfc0bb15a",
+          "createdAt": {
+            "date": {
+              "year": 2021,
+              "month": 12,
+              "day": 9
+            },
+            "time": {
+              "hour": 15,
+              "minute": 27,
+              "second": 43,
+              "nano": 767000000
+            }
+          },
+          "updatedAt": {
+            "date": {
+              "year": 2021,
+              "month": 12,
+              "day": 9
+            },
+            "time": {
+              "hour": 15,
+              "minute": 27,
+              "second": 43,
+              "nano": 768000000
+            }
+          }
+        },
+        "quantity": 4,
+        "id": "c57ecace-e277-4015-8d0b-ca075916343e",
+        "createdAt": {
+          "date": {
+            "year": 2025,
+            "month": 12,
+            "day": 4
+          },
+          "time": {
+            "hour": 15,
+            "minute": 32,
+            "second": 20,
+            "nano": 771493200
+          }
+        },
+        "updatedAt": {
+          "date": {
+            "year": 2025,
+            "month": 12,
+            "day": 4
+          },
+          "time": {
+            "hour": 15,
+            "minute": 32,
+            "second": 20,
+            "nano": 771493200
+          }
+        }
+      }
+    ],
+    "price": 48000.0,
+    "commissionFeeSum": 48480.0,
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 12,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 32,
+        "second": 50,
+        "nano": 638991400
+      }
+    },
+    "payType": {
+      "name": "PAYME",
+      "commissionFee": 1.0,
+      "id": "10f0aeef-9e9e-4e16-bcdf-f04e54e48ce4",
+      "createdAt": {
+        "date": {
+          "year": 2021,
+          "month": 12,
+          "day": 6
+        },
+        "time": {
+          "hour": 18,
+          "minute": 26,
+          "second": 45,
+          "nano": 739000000
+        }
+      },
+      "updatedAt": {
+        "date": {
+          "year": 2021,
+          "month": 12,
+          "day": 6
+        },
+        "time": {
+          "hour": 18,
+          "minute": 26,
+          "second": 45,
+          "nano": 739000000
+        }
+      }
+    },
+    "id": "0f951c35-b51f-44bc-aa95-5df891dda823",
+    "createdAt": {
+      "date": {
+        "year": 2025,
+        "month": 12,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 32,
+        "second": 50,
+        "nano": 638991400
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2025,
+        "month": 12,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 32,
+        "second": 50,
+        "nano": 638991400
+      }
+    }
+  },
+  {
+    "customer": {
+      "isActive": true,
+      "myCart": [
+        {
+          "cloth": {
+            "name": "T-Shirt",
+            "color": {
+              "name": "BLACK",
+              "id": "4d2a4de5-077e-47ed-a4bd-460334485297",
+              "createdAt": {
+                "date": {
+                  "year": 2021,
+                  "month": 12,
+                  "day": 6
+                },
+                "time": {
+                  "hour": 15,
+                  "minute": 9,
+                  "second": 44,
+                  "nano": 96000000
+                }
+              },
+              "updatedAt": {
+                "date": {
+                  "year": 2021,
+                  "month": 12,
+                  "day": 6
+                },
+                "time": {
+                  "hour": 15,
+                  "minute": 9,
+                  "second": 44,
+                  "nano": 96000000
+                }
+              }
+            },
+            "size": "S",
+            "price": 6000.0,
+            "discount": 10.0,
+            "id": "d30c0deb-34ff-4552-ac47-f4cdc888042f",
+            "createdAt": {
+              "date": {
+                "year": 2021,
+                "month": 12,
+                "day": 6
+              },
+              "time": {
+                "hour": 19,
+                "minute": 23,
+                "second": 7,
+                "nano": 121000000
+              }
+            },
+            "updatedAt": {
+              "date": {
+                "year": 2021,
+                "month": 12,
+                "day": 6
+              },
+              "time": {
+                "hour": 19,
+                "minute": 23,
+                "second": 7,
+                "nano": 121000000
+              }
+            }
+          },
+          "quantity": 7,
+          "id": "b3616e5f-3575-413d-b33e-dde8d98f81b6",
+          "createdAt": {
+            "date": {
+              "year": 2025,
+              "month": 12,
+              "day": 4
+            },
+            "time": {
+              "hour": 15,
+              "minute": 46,
+              "second": 44,
+              "nano": 712543500
+            }
+          },
+          "updatedAt": {
+            "date": {
+              "year": 2025,
+              "month": 12,
+              "day": 4
+            },
+            "time": {
+              "hour": 15,
+              "minute": 46,
+              "second": 44,
+              "nano": 712543500
+            }
+          }
+        }
+      ],
+      "wishList": [],
+      "fullName": "Behruz Izzatullayev null",
+      "balance": 0.0,
+      "role": "CUSTOMER",
+      "lastRound": 2,
+      "currentRound": 4,
+      "userId": 958536406,
+      "verifyCode": "8832",
+      "isVerified": true,
+      "cancelPressed": false,
+      "id": "7bcdf423-d118-4939-81ec-b14f6cc08131",
+      "createdAt": {
+        "date": {
+          "year": 2025,
+          "month": 12,
+          "day": 4
+        },
+        "time": {
+          "hour": 15,
+          "minute": 45,
+          "second": 14,
+          "nano": 926187800
+        }
+      },
+      "updatedAt": {
+        "date": {
+          "year": 2025,
+          "month": 12,
+          "day": 4
+        },
+        "time": {
+          "hour": 15,
+          "minute": 45,
+          "second": 14,
+          "nano": 926187800
+        }
+      }
+    },
+    "items": [
+      {
+        "cloth": {
+          "name": "T-Shirt",
+          "color": {
+            "name": "BLACK",
+            "id": "4d2a4de5-077e-47ed-a4bd-460334485297",
+            "createdAt": {
+              "date": {
+                "year": 2021,
+                "month": 12,
+                "day": 6
+              },
+              "time": {
+                "hour": 15,
+                "minute": 9,
+                "second": 44,
+                "nano": 96000000
+              }
+            },
+            "updatedAt": {
+              "date": {
+                "year": 2021,
+                "month": 12,
+                "day": 6
+              },
+              "time": {
+                "hour": 15,
+                "minute": 9,
+                "second": 44,
+                "nano": 96000000
+              }
+            }
+          },
+          "size": "S",
+          "price": 6000.0,
+          "discount": 10.0,
+          "id": "d30c0deb-34ff-4552-ac47-f4cdc888042f",
+          "createdAt": {
+            "date": {
+              "year": 2021,
+              "month": 12,
+              "day": 6
+            },
+            "time": {
+              "hour": 19,
+              "minute": 23,
+              "second": 7,
+              "nano": 121000000
+            }
+          },
+          "updatedAt": {
+            "date": {
+              "year": 2021,
+              "month": 12,
+              "day": 6
+            },
+            "time": {
+              "hour": 19,
+              "minute": 23,
+              "second": 7,
+              "nano": 121000000
+            }
+          }
+        },
+        "quantity": 7,
+        "id": "b3616e5f-3575-413d-b33e-dde8d98f81b6",
+        "createdAt": {
+          "date": {
+            "year": 2025,
+            "month": 12,
+            "day": 4
+          },
+          "time": {
+            "hour": 15,
+            "minute": 46,
+            "second": 44,
+            "nano": 712543500
+          }
+        },
+        "updatedAt": {
+          "date": {
+            "year": 2025,
+            "month": 12,
+            "day": 4
+          },
+          "time": {
+            "hour": 15,
+            "minute": 46,
+            "second": 44,
+            "nano": 712543500
+          }
+        }
+      }
+    ],
+    "price": 42000.0,
+    "commissionFeeSum": 42420.0,
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 12,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 47,
+        "second": 5,
+        "nano": 968316000
+      }
+    },
+    "payType": {
+      "name": "PAYME",
+      "commissionFee": 1.0,
+      "id": "10f0aeef-9e9e-4e16-bcdf-f04e54e48ce4",
+      "createdAt": {
+        "date": {
+          "year": 2021,
+          "month": 12,
+          "day": 6
+        },
+        "time": {
+          "hour": 18,
+          "minute": 26,
+          "second": 45,
+          "nano": 739000000
+        }
+      },
+      "updatedAt": {
+        "date": {
+          "year": 2021,
+          "month": 12,
+          "day": 6
+        },
+        "time": {
+          "hour": 18,
+          "minute": 26,
+          "second": 45,
+          "nano": 739000000
+        }
+      }
+    },
+    "id": "d556e7fe-bcf6-4534-810b-acb1c2ef3584",
+    "createdAt": {
+      "date": {
+        "year": 2025,
+        "month": 12,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 47,
+        "second": 5,
+        "nano": 968316000
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2025,
+        "month": 12,
+        "day": 4
+      },
+      "time": {
+        "hour": 15,
+        "minute": 47,
+        "second": 5,
+        "nano": 968316000
+      }
+    }
   }
 ]
