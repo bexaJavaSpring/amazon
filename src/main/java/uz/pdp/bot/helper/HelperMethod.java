@@ -21,6 +21,7 @@ public class HelperMethod {
 
         Customer newUser = new Customer();
         newUser.setUserId(update.getMessage().getFrom().getId());
+        newUser.setBotUserName(update.getMessage().getFrom().getUserName() != null ? update.getMessage().getFrom().getUserName() : "");
         newUser.setLastRound(0);
         newUser.setCurrentRound(0);
 
@@ -68,7 +69,7 @@ public class HelperMethod {
         User userFind = null;
         for (User user : userList) {
             if (user.getUserId() != null && user.getUserId().longValue() == currentUser.getUserId().longValue()) {
-                String fullName = contact.getFirstName() + " " + contact.getLastName();
+                String fullName = contact.getFirstName() + " " +(contact.getLastName() != null ? contact.getLastName() : "");
                 user.setFullName(fullName);
                 userFind = user;
                 break;

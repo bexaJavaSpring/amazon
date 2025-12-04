@@ -14,6 +14,7 @@ public abstract class User extends AbsEntity {
 
     private String fullName;
     private String username;
+    private String botUserName;
     private String password;
     private double balance;
     private Role role = Role.CUSTOMER;

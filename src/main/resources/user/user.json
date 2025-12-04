@@ -42,47 +42,6 @@
   },
   {
     "isActive": true,
-    "myCart": [],
-    "wishList": [],
-    "fullName": "Bobur Toshniyozov",
-    "balance": 0.0,
-    "role": "CUSTOMER",
-    "lastRound": 1,
-    "currentRound": 2,
-    "userId": 1365675028,
-    "verifyCode": "1308",
-    "isVerified": true,
-    "cancelPressed": false,
-    "id": "a0d874d5-48b1-45e0-ae63-3b754bb63aff",
-    "createdAt": {
-      "date": {
-        "year": 2025,
-        "month": 12,
-        "day": 4
-      },
-      "time": {
-        "hour": 15,
-        "minute": 31,
-        "second": 33,
-        "nano": 349469500
-      }
-    },
-    "updatedAt": {
-      "date": {
-        "year": 2025,
-        "month": 12,
-        "day": 4
-      },
-      "time": {
-        "hour": 15,
-        "minute": 31,
-        "second": 33,
-        "nano": 349469500
-      }
-    }
-  },
-  {
-    "isActive": true,
     "myCart": [
       {
         "cloth": {
@@ -358,7 +317,7 @@
     "fullName": "Behruz Izzatullayev",
     "username": "bexa",
     "password": "1234",
-    "balance": 100000000,
+    "balance": 1.0E8,
     "role": "SUPER_ADMIN",
     "lastRound": 0,
     "currentRound": 0,
@@ -389,6 +348,48 @@
         "minute": 9,
         "second": 27,
         "nano": 351629700
+      }
+    }
+  },
+  {
+    "isActive": true,
+    "myCart": [],
+    "wishList": [],
+    "fullName": "Bobur Toshniyozov",
+    "botUserName": "bobur_coder1",
+    "balance": 0.0,
+    "role": "CUSTOMER",
+    "lastRound": 1,
+    "currentRound": 2,
+    "userId": 1365675028,
+    "verifyCode": "1287",
+    "isVerified": true,
+    "cancelPressed": false,
+    "id": "2841dc98-e4a8-4041-890d-418b253d1889",
+    "createdAt": {
+      "date": {
+        "year": 2025,
+        "month": 12,
+        "day": 4
+      },
+      "time": {
+        "hour": 17,
+        "minute": 12,
+        "second": 51,
+        "nano": 709435700
+      }
+    },
+    "updatedAt": {
+      "date": {
+        "year": 2025,
+        "month": 12,
+        "day": 4
+      },
+      "time": {
+        "hour": 17,
+        "minute": 12,
+        "second": 51,
+        "nano": 709435700
       }
     }
   }
