@@ -266,13 +266,14 @@ public class OrderHistoryImpl implements OrderHistoryService {
                         float[] pointTablePay = {100F, 100F, 150F};
                         Table table2 = new Table(pointTablePay);
                         table2.setTextAlignment(TextAlignment.CENTER);
-
+                        String username = orderHistory.getCustomer().getUsername();
+                        String fullName = orderHistory.getCustomer().getFullName();
                         table2.addCell(new Cell().add("USER").setBackgroundColor(com.itextpdf.kernel.color.Color.BLUE));
                         table2.addCell(new Cell().add("PAYMENT").setBackgroundColor(com.itextpdf.kernel.color.Color.BLUE));
                         table2.addCell(new Cell().add("DATE").setBackgroundColor(com.itextpdf.kernel.color.Color.BLUE));
-                        table2.addCell(new Cell().add("" + orderHistory.getCustomer().getUsername().toUpperCase()));
-                        table2.addCell(new Cell().add("" + orderHistory.getPayType().getName()));
-                        table2.addCell(new Cell().add("" + orderHistory.getDate().format(DateTimeFormatter.ofPattern("dd-MM-yyyy , HH:mm:ss"))));
+                        table2.addCell(new Cell().add(username != null ? username.toUpperCase() : fullName));
+                        table2.addCell(new Cell().add(orderHistory.getPayType().getName()));
+                        table2.addCell(new Cell().add(orderHistory.getDate().format(DateTimeFormatter.ofPattern("dd-MM-yyyy , HH:mm:ss"))));
                         table2.setMarginTop(40);
                         Paragraph paragraph = new Paragraph("----------------------------------").setHorizontalAlignment(com.itextpdf.layout.property.HorizontalAlignment.CENTER).setFontColor(Color.WHITE);
 
@@ -348,13 +349,14 @@ public class OrderHistoryImpl implements OrderHistoryService {
                     float[] pointTablePay = {100F, 100F, 150F};
                     Table table2 = new Table(pointTablePay);
                     table2.setTextAlignment(TextAlignment.CENTER);
-
+                    String username = orderHistory.getCustomer().getUsername();
+                    String fullName = orderHistory.getCustomer().getFullName();
                     table2.addCell(new Cell().add("USER").setBackgroundColor(com.itextpdf.kernel.color.Color.BLUE));
                     table2.addCell(new Cell().add("PAYMENT").setBackgroundColor(com.itextpdf.kernel.color.Color.BLUE));
                     table2.addCell(new Cell().add("DATE").setBackgroundColor(com.itextpdf.kernel.color.Color.BLUE));
-                    table2.addCell(new Cell().add("" + orderHistory.getCustomer().getUsername().toUpperCase()));
-                    table2.addCell(new Cell().add("" + orderHistory.getPayType().getName()));
-                    table2.addCell(new Cell().add("" + orderHistory.getDate().format(DateTimeFormatter.ofPattern("dd-MM-yyyy , HH:mm:ss"))));
+                    table2.addCell(new Cell().add(username != null ? username.toUpperCase() : fullName));
+                    table2.addCell(new Cell().add(orderHistory.getPayType().getName()));
+                    table2.addCell(new Cell().add(orderHistory.getDate().format(DateTimeFormatter.ofPattern("dd-MM-yyyy , HH:mm:ss"))));
                     table2.setMarginTop(40);
                     Paragraph paragraph = new Paragraph("----------------------------------").setHorizontalAlignment(com.itextpdf.layout.property.HorizontalAlignment.CENTER).setFontColor(Color.WHITE);
 

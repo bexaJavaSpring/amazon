@@ -9,7 +9,6 @@ import uz.pdp.model.order.StoreItem;
 import uz.pdp.model.payment.PayType;
 import uz.pdp.model.products.Cloth;
 import uz.pdp.model.products.Color;
-import uz.pdp.model.user.Admin;
 import uz.pdp.model.user.Customer;
 import uz.pdp.service.AuthServiceImpl;
 import uz.pdp.service.admin.service.ClothCRUD;
@@ -70,8 +69,10 @@ public class DataBase {
                 Gson gson = new Gson();
                 List<OrderHistory> orderType = gson.fromJson(reader, new TypeToken<List<OrderHistory>>() {
                 }.getType());
-                orderHistoryList.removeAll(orderHistoryList);
-                orderHistoryList.addAll(orderType);
+                if (orderType != null) {
+                    orderHistoryList.removeAll(orderHistoryList);
+                    orderHistoryList.addAll(orderType);
+                }
                 return true;
             } catch (IOException e) {
                 return false;
@@ -87,7 +88,7 @@ public class DataBase {
         } else {
             try (Reader reader = new FileReader(userFile)) {
                 Gson gson = new Gson();
-                List<User> usersFromFile  = gson.fromJson(reader, new TypeToken<List<Customer>>() {
+                List<User> usersFromFile = gson.fromJson(reader, new TypeToken<List<Customer>>() {
                 }.getType());
                 if (usersFromFile != null) {
                     userList.clear();
@@ -110,8 +111,10 @@ public class DataBase {
                 Gson gson = new Gson();
                 List<StoreItem> storeItemTypes = gson.fromJson(reader, new TypeToken<List<StoreItem>>() {
                 }.getType());
-                storeItemList.removeAll(storeItemList);
-                storeItemList.addAll(storeItemTypes);
+                if (storeItemTypes != null) {
+                    storeItemList.removeAll(storeItemList);
+                    storeItemList.addAll(storeItemTypes);
+                }
                 return true;
             } catch (IOException e) {
                 return true;
@@ -129,8 +132,10 @@ public class DataBase {
                 Gson gson = new Gson();
                 List<Cloth> clothTypes = gson.fromJson(reader, new TypeToken<List<Cloth>>() {
                 }.getType());
-                clothList.removeAll(clothList);
-                clothList.addAll(clothTypes);
+                if (clothTypes != null) {
+                    clothList.removeAll(clothList);
+                    clothList.addAll(clothTypes);
+                }
                 return true;
             } catch (IOException e) {
                 return false;
